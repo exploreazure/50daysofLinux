@@ -11,16 +11,10 @@ Let the studying begin...
 
 Daily Notes
 
-
-<ul>
-  <li>Day One - Essential Commands</li>
-</ul>
-
+[Day One - Essential Commands](linuxday.md)
 
 Useful Sites
 
 I found useful the following sites useful:
 
-<ul>
-   <li>https://linuxjourney.com/</li>
-</ul>
+[Linux Journey](https://linuxjourney.com/)
