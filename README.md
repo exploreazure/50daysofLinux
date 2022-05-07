@@ -11,7 +11,7 @@ Let the studying begin...
 
 ## Daily Notes
 
-[Day One - Essential Commands](linuxday.md)
+[Day One - Essential Commands](linuxday1.md)
 
 ## Useful Sites
 
