@@ -22,5 +22,5 @@ Useful Sites
 I found useful the following sites useful:
 
 <ul>
-   <li>[Linux Journey](https://linuxjourney.com/)</li>
+   <li>https://linuxjourney.com/</li>
 </ul>
