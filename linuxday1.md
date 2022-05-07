@@ -1,9 +1,13 @@
 # 50daysofLinux - Day 1 Essential Commands
 
 
-[This article](https://www.exploreazure.co.uk/projects/linux/post1) contains details on installing Linux and the Linux Foundation Certified System Adminstrator exam. 
+## Introduction
 
-Navigation Commands
+Today my notes are about the essential commands found in Linux. 
+
+If you want to know more about installing Linux, then please use [This article](https://www.exploreazure.co.uk/projects/linux/post1). 
+
+## Navigation Commands
 
 The Linux file system follows a tree-like hierarchial structure. However, the tree is upside down, as the root is the top-level directory.
 
