@@ -14,7 +14,7 @@ To list files and directories use ls
 ls
 ```
 
-The -l will output in long format, as the default will only show the names of the files. The long listing format is much more helpful.
+The -l option will output in long listing format, as the default will only show the names of the files. The long listing format is much more helpful.
 
 ```
 ls -l
