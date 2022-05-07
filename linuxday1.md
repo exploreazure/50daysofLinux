@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Today my notes are about the navigation commands found in Linux. 
+Today my notes are about the navigation commands found in Linux. We learn to locate, view and create files within the Linux file system.
 
 If you want to know more about installing Linux, then please use [This article](https://www.exploreazure.co.uk/projects/linux/post1). 
 
