@@ -1,7 +1,7 @@
 # 50daysofLinux - Day 2 Sudo
 
 ## Introduction
-If you have used Linux before, you will have found some system commands require root privileges to execute. The command ```sudo``` command is used to run commands with the security privileges of another user. 
+Some system commands require root privileges to execute. The command ```sudo``` command is used to run commands with the security privileges of another user. 
 
 This article describes how and when to use sudo. 
 
