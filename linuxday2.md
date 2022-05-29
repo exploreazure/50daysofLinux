@@ -52,7 +52,7 @@ As you can see the sudo command is a powerful prefix to add to a command. Not al
 
 ## sudo Configuration Files
 
-The main sudo configuration is normally found at /etc/sudoers.  **Do not edit this using a text editor, use the following command:
+The main sudo configuration is normally found at /etc/sudoers.  **Do not edit this using a text editor, use the following command:**
 
 ```
 sudo visudo
@@ -64,8 +64,9 @@ sudo select-editor
 ```
 
 The two key concepts we need to learn to understand the sudoers file format are:
-1, Aliases
-2, User privileges specification
+
+1. Aliases
+2. User privileges specification
 
 ### Alias
 
@@ -92,7 +93,7 @@ You can write and quit from your favourite text editor to save changes.
 
 **So what have we just done?**
 
-We have created an alias called USER_ADMIN_CMDS, useradmin1 can now use the sudo command to execute the useradmin commands. The useradmin1 use would be prevented from running other root commands, such as removing files owned by root.
+We have created an alias called USER_ADMIN_CMDS, useradmin1 can now use the sudo command to execute the useradmin commands. The useradmin1 user is prevented from running other root commands, such as removing files owned by root.
 
 Let's test to see if this sudoers change has worked. In my case, I do not have a user on my system called useradmin1. In my lab environment, I have created this user:
 
@@ -102,7 +103,7 @@ sudo adduser useradmin1
 This has created a new user, you will need to enter a password, you can press enter to skip the other prompts.
 
 
-Let's switch user to useradmin by:
+Let's switch user to useradmin1 by:
 
 ```
 sudo su - useradmin1
@@ -174,8 +175,13 @@ sudo rm pleaseremove1.tmp
 sudo userdel useradmin1
 ```
 
-You can also remove the lines in the sudoers files, which were added by the examples in this article (remember to use ``` sudo visudo ```).
+You can also remove the lines in the sudoers files, which were added whilst following along with the examples in this article (remember to use ``` sudo visudo ```).
 
 ## Summary
 
 As you can see, you gain great power when you elevate your permissions using sudo. The sudoers configuration file is very useful when tailoring the power of sudo to meet the needs of your administrators. 
+
+## Resources
+
+[Ubuntu SUDO help article](https://help.ubuntu.com/community/Sudoers)
+[Linux Crash Course - Sudo (Youtube)](https://www.youtube.com/watch?v=07JOqKOBRnU)
