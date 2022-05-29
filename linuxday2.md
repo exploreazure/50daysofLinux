@@ -184,4 +184,5 @@ As you can see, you gain great power when you elevate your permissions using sud
 ## Resources
 
 [Ubuntu SUDO help article](https://help.ubuntu.com/community/Sudoers)
+
 [Linux Crash Course - Sudo (Youtube)](https://www.youtube.com/watch?v=07JOqKOBRnU)
