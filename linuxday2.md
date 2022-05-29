@@ -48,7 +48,7 @@ sudo -i
 Use exit to return to your user context.
 
 **Helpful tip**
-I am always forgetting to add sudo infront of command which requires root permissions. To save some typing you can run the previous by using the !! shortcut:
+I am always forgetting to add sudo infront of a command which requires root permissions. To save some typing you can run the previous by using the !! shortcut:
 
 ```
 useradd bob
