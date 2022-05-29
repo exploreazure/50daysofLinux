@@ -47,6 +47,17 @@ sudo -i
 ```
 Use exit to return to your user context.
 
+**Helpful tip**
+I am always forgetting to add sudo infront of command which requires root permissions. To save some typing you can run the previous by using the !! shortcut:
+
+```
+useradd bob
+# oops, a permission denied error is returned, as I forgot the sudo prefix
+sudo !!
+# this will run the previous command, including the sudo prefix
+# saves me time :-)
+```
+
 As you can see the sudo command is a powerful prefix to add to a command. Not all users can use this powerful ability. In the next section, we will look at the configuration files associated to sudo.
 
 
