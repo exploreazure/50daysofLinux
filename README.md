@@ -12,6 +12,7 @@ Let the studying begin...
 ## Daily Notes
 
 [Day One - Essential Commands](linuxday1.md)
+
 [Day Two - SUDO](linuxday2.md)
 
 ## Useful Sites
