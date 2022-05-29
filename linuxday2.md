@@ -12,7 +12,7 @@ The name stands for SuperUser DO, as by default the sudo will try to run the com
 
 As you can switch to any user, some people prefer the Substitute User DO name. The SuperUser DO is the formal name given by its maintainers.
 
-## Common Usage
+## What sudo can do?
 
 On your Linux system, try the following commands:
 
