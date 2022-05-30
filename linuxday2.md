@@ -61,7 +61,7 @@ sudo !!
 As you can see the sudo command is a powerful prefix to add to a command. Not all users can use this powerful ability. In the next section, we will look at the configuration files associated to sudo.
 
 
-## sudo Configuration Files
+## sudo configuration files
 
 The main sudo configuration is normally found at /etc/sudoers.  **Do not edit this using a text editor, use the following command:**
 
@@ -137,11 +137,13 @@ sudo usermod useradmin1 -c "temp user"
 
 As the usermod command is listed in the sudoers file, the command is allowed to execute. 
 
-### User Privilleges Specification 
+### User privilleges specification 
 
 The format to specify a user privilege is:
 
+```
 <user> <host> (<accounts>:<groups>) <tag list> <commands>
+```
 
 Let's look at some examples to understand this format:
 
@@ -176,7 +178,7 @@ useradmin2 ALL=(ALL:ALL) NOPASSWD: USER_ADMINS_CMDS
 
 This example uses the optional tag example. Which suppresses the password prompt
 
-## Tidy Up
+## Tidy up
 
 If you want to tidy up your system, you can remove the file and the account using the below commands:
 
